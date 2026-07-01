@@ -1,0 +1,31 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local build reference (not part of the submission)
+IMPLEMENTATION_GUIDE.md
