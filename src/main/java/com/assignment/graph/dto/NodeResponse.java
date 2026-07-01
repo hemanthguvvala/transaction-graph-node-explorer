@@ -16,7 +16,9 @@ public record NodeResponse(
 		List<NodeSummary> parentChain,
 		List<NodeSummary> children,
 		List<NodeTransaction> transactions,
-		List<NodeTransaction> nextLevelTransactions
+		List<NodeTransaction> nextLevelTransactions,
+		ChildTreeNode childrenTree,
+		List<LevelAggregate> levelAggregates
 		) {
 
 }
